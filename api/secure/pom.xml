@@ -7,9 +7,8 @@
     <groupId>cat.eFactures</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>cat.eFactures</groupId>
+  <groupId>cat.eFactures.api</groupId>
   <artifactId>secure</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>secure</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -19,13 +18,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-    	<groupId>cat.eFactures</groupId>
-    	<artifactId>transform</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
     </dependency>
 	<dependency>
 	    <groupId>es.mityc.jumbo.adsi</groupId>
@@ -56,17 +49,43 @@
 	    <groupId>es.mityc.jumbo.adsi</groupId>
 	    <artifactId>MITyCLibTSA</artifactId>
 	    <version>1.0.4</version>
-	</dependency>
-	<dependency>
-		<groupId>bcprov-jdk15</groupId>
-		<artifactId>bcprov-jdk15</artifactId>
-		<version>1.43</version>
 	</dependency>    
 	<dependency>
 	    <groupId>es.mityc.jumbo.adsi</groupId>
 	    <artifactId>MITyCLibPolicy</artifactId>
 	    <version>1.0.4</version>
 	</dependency>
-	
+
+	<dependency>
+		<groupId>commons-io</groupId>
+		<artifactId>commons-io</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>cat.eFactures.api</groupId>
+		<artifactId>common</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>commons-logging</groupId>
+		<artifactId>commons-logging</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.bouncycastle</groupId>
+		<artifactId>bctsp-jdk16</artifactId>
+		<version>1.46</version>
+	</dependency>
+	<dependency>
+		<groupId>bouncycastle</groupId>
+		<artifactId>bcprov-jdk16</artifactId>
+		<version>140</version>
+	</dependency>
   </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>junit</groupId>
+  			<artifactId>junit</artifactId>
+  			<version>3.8.1</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>

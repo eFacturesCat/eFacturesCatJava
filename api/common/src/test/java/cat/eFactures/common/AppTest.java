@@ -1,4 +1,4 @@
-package cat.eFactures.transform;
+package cat.eFactures.common;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -10,7 +10,6 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-	private static String fileName = "C:\\SantiDocs\\dev\\eFacturesCat\\eFacturesCatJava\\resources\\SampleFacturae_3_2.xml";
     /**
      * Create the test case
      *
