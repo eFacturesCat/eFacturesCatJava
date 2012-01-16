@@ -10,8 +10,7 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-	private static String fileName = "C:\\SantiDocs\\dev\\eFacturesCat\\eFacturesCatJava\\resources\\SampleFacturae_3_2.xml";
-    /**
+	/**
      * Create the test case
      *
      * @param testName name of the test case
