@@ -3,6 +3,9 @@
 	<name>secure</name>
 	<comment></comment>
 	<projects>
+		<project>api</project>
+		<project>common</project>
+		<project>transform</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
