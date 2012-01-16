@@ -5,7 +5,7 @@
     <Modality>I</Modality>
     <InvoiceIssuerType>EM</InvoiceIssuerType>
     <Batch>
-      <BatchIdentifier>ESA0000000000072012</BatchIdentifier>
+      <BatchIdentifier>ESA0000000000082012</BatchIdentifier>
       <InvoicesCount>1</InvoicesCount>
       <TotalInvoicesAmount>
         <TotalAmount>25573.64</TotalAmount>
@@ -66,7 +66,7 @@
   <Invoices>
     <Invoice>
       <InvoiceHeader>
-        <InvoiceNumber>0007</InvoiceNumber>
+        <InvoiceNumber>0008</InvoiceNumber>
         <InvoiceSeriesCode>2012</InvoiceSeriesCode>
         <InvoiceDocumentType>FC</InvoiceDocumentType>
         <InvoiceClass>OO</InvoiceClass>
