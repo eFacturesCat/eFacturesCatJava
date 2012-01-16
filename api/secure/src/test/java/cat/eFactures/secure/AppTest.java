@@ -14,6 +14,7 @@ import cat.eFactures.transform.Facturae_3_2;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import cat.eFactures.common.Constants;
 import cat.eFactures.common.Utils;
 import es.mityc.javasign.pkstore.CertStoreException;
 /**
@@ -22,10 +23,7 @@ import es.mityc.javasign.pkstore.CertStoreException;
 public class AppTest 
     extends TestCase
 {
-	private static String fileName = "C:\\SantiDocs\\dev\\eFacturesCat\\eFacturesCatJava\\resources\\SampleFacturae_3_2.xml";
-	private static String fileNameSigned = "C:\\SantiDocs\\dev\\eFacturesCat\\eFacturesCatJava\\resources\\SampleFacturae_3_2_Signed.xml";
-	private static String pkcs12_fileName = "C:\\SantiDocs\\dev\\eFacturesCat\\eFacturesCatJava\\resources\\factura-sw.pfx";
-	private static String pkcs12_password = "1111";
+
     /**
      * Create the test case
      *
@@ -49,32 +47,37 @@ public class AppTest
      */
     public void testApp()
     {    	
+    	String fileName = "../../resources/SampleFacturae_3_2.xml";
+    	String fileNameSigned = "../../resources/SampleFacturae_3_2_Signed.xml";
+    	String pkcs12_fileName = "../../resources/factura-sw.pfx";
+    	String pkcs12_password = "1111";
+    	
 		SecuredFacturae_3_2 sFe32 = null;
-		try {
-			Facturae_3_2 fe32 = new Facturae_3_2(fileName);
-			sFe32 = new SecuredFacturae_3_2(fe32);
+		SigningCertificate cert = new SigningCertificate();
+		
+		try {			
+			// Create Secured Facturae 3.2 structure
+			sFe32 = new SecuredFacturae_3_2(new Facturae_3_2(fileName));
 		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 			assertTrue( false );
 		}
 		if (sFe32!=null) {
-			SigningCertificate cert = new SigningCertificate();
 			try {
+				// Open PKCS12 key and certificate
 				cert.importPKCS12(pkcs12_fileName, pkcs12_password);
-			} catch (KeyStoreException | NoSuchAlgorithmException
-					| CertificateException | CertStoreException | IOException e) {
-				// TODO Auto-generated catch block
+			} catch (Exception e) {
 				e.printStackTrace();
 				assertTrue( false );
 			}
 			if (cert.getProvider()!=null) {
-				sFe32.signInvoice(cert);
 				try {
+					// Sign Invoice with XAdES_EPES
+					sFe32.signInvoice(cert, Constants.XAdES_EPES_Enveloped);
+					// Save Signed Invoice File
 					sFe32.saveInvoiceSigned(fileNameSigned);
 					assertTrue( true );
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
+				} catch (Exception e) {
 					e.printStackTrace();
 					assertTrue( false );
 				}
