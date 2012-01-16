@@ -50,10 +50,6 @@
   	<groupId>junit</groupId>
   	<artifactId>junit</artifactId>
   </dependency>
-  <dependency>
-  	<groupId>cat.eFactures.api</groupId>
-  	<artifactId>transform</artifactId>
-  </dependency>
   </dependencies>
   <modules>
   	<module>transform</module>
