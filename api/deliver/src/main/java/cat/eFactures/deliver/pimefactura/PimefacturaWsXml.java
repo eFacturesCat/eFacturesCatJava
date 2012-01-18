@@ -15,13 +15,26 @@ import org.w3c.dom.Element;
 
 import cat.eFactures.transform.XMLInvoice;
 
+/**
+ * Xml structure to send invoice via WebServices to "pimefactura"
+ * 
+ * @author @santicasas
+ *
+ */
 public class PimefacturaWsXml {
 	
 	private ObjectFactory factory = new ObjectFactory();
 	private Root root = factory.createRoot();
     DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
     
-    
+    /**
+     * Constructor
+     * 
+     * @param xmlInvoice Invoice to send
+     * @param ak Issuer Web Service Key
+     * @throws IOException
+     * @throws ParserConfigurationException
+     */
 	public PimefacturaWsXml(XMLInvoice xmlInvoice, String ak) throws IOException, ParserConfigurationException {
 
 		root.facturas = factory.createFacturas();
@@ -40,6 +53,11 @@ public class PimefacturaWsXml {
         root.facturas.factura.setBase64Document(invoiceEncoded);        
 	}
 	
+	/**
+	 * Marshall xml structure
+	 * @return String of xml "marshalled"
+	 * @throws JAXBException
+	 */
 	public String marshall() throws JAXBException {
 		StringWriter sw = new StringWriter();
 		JAXBContext jc = JAXBContext.newInstance("cat.eFactures.deliver.pimefactura");
@@ -50,6 +68,12 @@ public class PimefacturaWsXml {
 		return sw.toString();
 	}
 	
+	/**
+	 * Get Root element for xml structure
+	 * @return The Root Element
+	 * @throws ParserConfigurationException
+	 * @throws JAXBException
+	 */
 	public Element getRoot() throws ParserConfigurationException, JAXBException {
 
 		JAXBContext jc = JAXBContext.newInstance("cat.eFactures.deliver.pimefactura");

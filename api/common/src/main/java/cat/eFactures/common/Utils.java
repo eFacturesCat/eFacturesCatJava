@@ -13,10 +13,20 @@ import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
+/**
+ * Utils Class 
+ * @author @santicasas
+ *
+ */
 public class Utils {
-	  /**
-	   * Read XML as DOM.
-	   */
+	/**
+	 * Read XML as DOM
+	 * @param is The input stream to read
+	 * @return
+	 * @throws SAXException
+	 * @throws IOException
+	 * @throws ParserConfigurationException
+	 */
 	  public static Document readXml(InputStream is) throws SAXException, IOException,
 	      ParserConfigurationException {
 	      DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -25,20 +35,20 @@ public class Utils {
 	      dbf.setIgnoringComments(false);
 	      dbf.setIgnoringElementContentWhitespace(true);
 	      dbf.setNamespaceAware(true);
-	      // dbf.setCoalescing(true);
-	      // dbf.setExpandEntityReferences(true);
 
 	      DocumentBuilder db = null;
 	      db = dbf.newDocumentBuilder();
 	      db.setEntityResolver(new NullResolver());
-
-	      // db.setErrorHandler( new MyErrorHandler());
-
 	      return db.parse(is);
 	  }
 	}
 
-	class NullResolver implements EntityResolver {
+
+/**
+ * NullResolver Class	
+ * @author @santicasas
+ */
+class NullResolver implements EntityResolver {
 	  public InputSource resolveEntity(String publicId, String systemId) throws SAXException,
 	      IOException {
 	    return new InputSource(new StringReader(""));
