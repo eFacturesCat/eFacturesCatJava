@@ -13,39 +13,51 @@ import es.mityc.firmaJava.libreria.xades.XAdESSchemas;
 import es.mityc.javasign.xml.refs.AllXMLToSign;
 import es.mityc.javasign.xml.refs.ObjectToSign;
 
+/**
+ * Abstract class for "secured" invoices (i.e. Signed Xml Invoices)
+ * 
+ * @author @santicasas
+ *
+ */
 public abstract class SecuredInvoice {
 
 	private XMLInvoice xmlInvoice;
 	private XMLInvoice xmlInvoiceSigned = null;
 	
-	public XMLInvoice getXmlInvoiceSigned() {
-		return xmlInvoiceSigned;
-	}
-
-	public void setXmlInvoiceSigned(XMLInvoice xmlInvoiceSigned) {
+	private void setXmlInvoiceSigned(XMLInvoice xmlInvoiceSigned) {
 		this.xmlInvoiceSigned = xmlInvoiceSigned;
 	}
-
-	public SecuredInvoice(XMLInvoice xmlInvoice) {
-		this.setXmlInvoice(xmlInvoice);	
-	}
-	
-	public void signInvoice() {
-	
-	}
-
-	public XMLInvoice getXmlInvoice() {
+	private XMLInvoice getXmlInvoice() {
 		return xmlInvoice;
 	}
 
-	public void setXmlInvoice(XMLInvoice xmlInvoice) {
+	private void setXmlInvoice(XMLInvoice xmlInvoice) {
 		this.xmlInvoice = xmlInvoice;
 	}
-	
+
+	/**
+	 * Constructor
+	 * @param xmlInvoice XmlInvoice to be securized
+	 */
+	public SecuredInvoice(XMLInvoice xmlInvoice) {
+		this.setXmlInvoice(xmlInvoice);	
+	}
+
+	/**
+	 * Save the invoice secured
+	 * @param fileName to save
+	 * @throws IOException
+	 */
 	public void saveInvoiceSigned(String fileName) throws IOException {
-		xmlInvoiceSigned.save(fileName);
+		xmlInvoiceSigned.saveXML(fileName);
 	}
 	
+	/**
+	 * General Method to Secure Invoices with XAdES-EPES Enveloped Signature (i.e. Spanish facturae)
+	 * @param cert
+	 * @param policy
+	 * @throws Exception
+	 */
 	public void signInvoiceXadesEpesEnveloped(SigningCertificate cert, String policy) throws Exception {
 		DataToSign dataToSign = new DataToSign();
         dataToSign.setXadesFormat(EnumFormatoFirma.XAdES_BES);

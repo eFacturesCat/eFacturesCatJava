@@ -38,9 +38,11 @@ public class AppTest
     {
     	
     	try {
-    		EndPointPimefactura epf = new EndPointPimefactura(TestConstants.AK_test, TestConstants.environment);
+    		//EndPointPimefactura epp = new EndPointPimefactura(TestConstants.AK_test, TestConstants.environment);
+            EndPointEmail epp = new EndPointEmail("smtp.gmail.com", 465, "efacturescat@santicasas.net","pimefactura");
+            epp.createMessage("efacturescat@santicasas.net", "me@sntc.eu", "Enviament de factura", "Trobarà adjunta la factura enviada");    		
 			XMLInvoice invoice = new XMLInvoice(TestConstants.fileNameSigned);
-			DeliverInvoice deliver = new DeliverInvoice(invoice, epf);
+			DeliverInvoice deliver = new DeliverInvoice(invoice, epp);
 			String result = deliver.deliverInvoice();
 			System.out.println("Result = " + result);
 		} catch (Exception e) {

@@ -1,0 +1,7 @@
+cat.eFactures.api
+cat.eFactures.common
+cat.eFactures.deliver
+cat.eFactures.deliver.pimefactura
+cat.eFactures.deliver.pimefactura.ws
+cat.eFactures.secure
+cat.eFactures.transform

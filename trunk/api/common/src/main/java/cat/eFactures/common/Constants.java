@@ -1,5 +1,11 @@
 package cat.eFactures.common;
 
+/**
+ * Constants for eFacturesCat API
+ * 
+ * @author @santicasas
+ *
+ */
 public class Constants {
 	public static String facturae31policy="facturae31";
 	public static String XAdES_EPES_Enveloped="XAdES-EPES-Enveloped";
