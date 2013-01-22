@@ -5,7 +5,7 @@
     <Modality>I</Modality>
     <InvoiceIssuerType>EM</InvoiceIssuerType>
     <Batch>
-      <BatchIdentifier>ESA0000000000082012</BatchIdentifier>
+      <BatchIdentifier>ESA0000000001092012</BatchIdentifier>
       <InvoicesCount>1</InvoicesCount>
       <TotalInvoicesAmount>
         <TotalAmount>25573.64</TotalAmount>
@@ -45,7 +45,7 @@
       <TaxIdentification>
         <PersonTypeCode>J</PersonTypeCode>
         <ResidenceTypeCode>R</ResidenceTypeCode>
-        <TaxIdentificationNumber>ESB84009240</TaxIdentificationNumber>
+        <TaxIdentificationNumber>ES12345678Z</TaxIdentificationNumber>
       </TaxIdentification>
       <LegalEntity>
         <CorporateName>Buyer Entity Inc</CorporateName>
@@ -66,7 +66,7 @@
   <Invoices>
     <Invoice>
       <InvoiceHeader>
-        <InvoiceNumber>0008</InvoiceNumber>
+        <InvoiceNumber>0109</InvoiceNumber>
         <InvoiceSeriesCode>2012</InvoiceSeriesCode>
         <InvoiceDocumentType>FC</InvoiceDocumentType>
         <InvoiceClass>OO</InvoiceClass>
