@@ -4,7 +4,7 @@
     <Modality>I</Modality>
     <InvoiceIssuerType>EM</InvoiceIssuerType>
     <Batch>
-      <BatchIdentifier>ESA0000000000082012</BatchIdentifier>
+      <BatchIdentifier>ESA0000000001092012</BatchIdentifier>
       <InvoicesCount>1</InvoicesCount>
       <TotalInvoicesAmount>
         <TotalAmount>25573.64</TotalAmount>
@@ -44,7 +44,7 @@
       <TaxIdentification>
         <PersonTypeCode>J</PersonTypeCode>
         <ResidenceTypeCode>R</ResidenceTypeCode>
-        <TaxIdentificationNumber>ESB84009240</TaxIdentificationNumber>
+        <TaxIdentificationNumber>ES12345678Z</TaxIdentificationNumber>
       </TaxIdentification>
       <LegalEntity>
         <CorporateName>Buyer Entity Inc</CorporateName>
@@ -65,7 +65,7 @@
   <Invoices>
     <Invoice>
       <InvoiceHeader>
-        <InvoiceNumber>0008</InvoiceNumber>
+        <InvoiceNumber>0109</InvoiceNumber>
         <InvoiceSeriesCode>2012</InvoiceSeriesCode>
         <InvoiceDocumentType>FC</InvoiceDocumentType>
         <InvoiceClass>OO</InvoiceClass>
@@ -185,32 +185,32 @@
       </AdditionalData>
     </Invoice>
   </Invoices>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature50181">
-<ds:SignedInfo Id="Signature-SignedInfo887158">
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature804687">
+<ds:SignedInfo Id="Signature-SignedInfo464323">
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
 <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
-<ds:Reference Id="SignedPropertiesID820016" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature50181-SignedProperties553227">
+<ds:Reference Id="SignedPropertiesID177261" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature804687-SignedProperties643901">
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>MigguZVAFOeUjGDcouvb5gJUsio=</ds:DigestValue>
+<ds:DigestValue>P8PpwXb4unYz00rTjsVYegsSlfQ=</ds:DigestValue>
 </ds:Reference>
-<ds:Reference URI="#Certificate1209203">
+<ds:Reference URI="#Certificate1583571">
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>R2EYgsduSuDzhhF2FhpAH7QEitU=</ds:DigestValue>
+<ds:DigestValue>jnDIrzqhJob0d0I3g+LCSP4Chhs=</ds:DigestValue>
 </ds:Reference>
-<ds:Reference Id="Reference-ID-397905" URI="">
+<ds:Reference Id="Reference-ID-1018646" URI="">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>bdRLLk05T0owVGzzNKurUbtuyFA=</ds:DigestValue>
+<ds:DigestValue>e/1lds1m4uXhs6xhHw8R24cK2ag=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
-<ds:SignatureValue Id="SignatureValue176029">
-B3YB3SwmPiERwQDEuUZJigHSxyD0IGljuP7GlkYRmQiyY4vTs50XT02a+uN9W4D53HKeLSqHFXmX
-5x/Lq8R66AEacUNFdJK26aZs1JF48d7/m5uU49qCe/q26W1MCc4e1wxCdBImrtb4zfHqxT8iAz09
-qOOn3WRb0/0aj+LFiPY=
+<ds:SignatureValue Id="SignatureValue124293">
+Pz5C9AxuPOdIjseljxm/viQsVsYItSURN4sSuwe98vbqlh9JhXGgDCIizpGSbgW+rMNF92/S30G1
+N8HQ2mQzcHdznk3H70inVtAUVD4RdRz4XQm5kIiXLXBEfqpscqJTw2BskM2vQ46Ap25btnSf9QCJ
+KdQG7ik7Y+7AM3InV0A=
 </ds:SignatureValue>
-<ds:KeyInfo Id="Certificate1209203">
+<ds:KeyInfo Id="Certificate1583571">
 <ds:X509Data>
 <ds:X509Certificate>
 MIIGZzCCBU+gAwIBAgIIf+UMnWh9pc8wDQYJKoZIhvcNAQEFBQAwggEWMQswCQYDVQQGEwJFUzEn
@@ -255,4 +255,4 @@ HeJhbSSvh+6auVT5f7s=
 </ds:RSAKeyValue>
 </ds:KeyValue>
 </ds:KeyInfo>
-<ds:Object Id="Signature50181-Object898077"><etsi:QualifyingProperties Target="#Signature50181"><etsi:SignedProperties Id="Signature50181-SignedProperties553227"><etsi:SignedSignatureProperties><etsi:SigningTime>2012-02-14T17:29:57+01:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>lv6t8C9i9f6Tdcw+1cj1i4Or3+4=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC Firmaprofesional - CA1,O=Firmaprofesional S.A. NIF A-62634068,OU=Jerarquia de Certificacion Firmaprofesional,OU=Consulte http://www.firmaprofesional.com,L=C/ Muntaner 244 Barcelona,1.2.840.113549.1.9.1=#1618636131406669726d6170726f666573696f6e616c2e636f6d,C=ES</ds:X509IssuerName><ds:X509SerialNumber>9215786082686051791</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica_de_firma_formato_facturae/politica_de_firma_formato_facturae_v3_1.pdf</etsi:Identifier><etsi:Description>Política de Firma FacturaE v3.1</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-397905"><etsi:Description>Policy facturae31</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></fe:Facturae>
+<ds:Object Id="Signature804687-Object430674"><etsi:QualifyingProperties Target="#Signature804687"><etsi:SignedProperties Id="Signature804687-SignedProperties643901"><etsi:SignedSignatureProperties><etsi:SigningTime>2013-01-22T18:16:05+01:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>lv6t8C9i9f6Tdcw+1cj1i4Or3+4=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC Firmaprofesional - CA1,O=Firmaprofesional S.A. NIF A-62634068,OU=Jerarquia de Certificacion Firmaprofesional,OU=Consulte http://www.firmaprofesional.com,L=C/ Muntaner 244 Barcelona,1.2.840.113549.1.9.1=#1618636131406669726d6170726f666573696f6e616c2e636f6d,C=ES</ds:X509IssuerName><ds:X509SerialNumber>9215786082686051791</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica_de_firma_formato_facturae/politica_de_firma_formato_facturae_v3_1.pdf</etsi:Identifier><etsi:Description>Política de Firma FacturaE v3.1</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-1018646"><etsi:Description>Policy facturae31</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></fe:Facturae>
