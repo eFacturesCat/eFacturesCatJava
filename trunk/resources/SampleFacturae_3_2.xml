@@ -5,7 +5,7 @@
     <Modality>I</Modality>
     <InvoiceIssuerType>EM</InvoiceIssuerType>
     <Batch>
-      <BatchIdentifier>ESA0000000001092012</BatchIdentifier>
+      <BatchIdentifier>ESA0000000001092013</BatchIdentifier>
       <InvoicesCount>1</InvoicesCount>
       <TotalInvoicesAmount>
         <TotalAmount>25573.64</TotalAmount>
@@ -67,12 +67,12 @@
     <Invoice>
       <InvoiceHeader>
         <InvoiceNumber>0109</InvoiceNumber>
-        <InvoiceSeriesCode>2012</InvoiceSeriesCode>
+        <InvoiceSeriesCode>2013</InvoiceSeriesCode>
         <InvoiceDocumentType>FC</InvoiceDocumentType>
         <InvoiceClass>OO</InvoiceClass>
       </InvoiceHeader>
       <InvoiceIssueData>
-        <IssueDate>2012-01-15</IssueDate>
+        <IssueDate>2013-01-15</IssueDate>
         <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
         <TaxCurrencyCode>EUR</TaxCurrencyCode>
         <LanguageName>ca</LanguageName>
@@ -173,7 +173,7 @@
       </Items>
       <PaymentDetails>
         <Installment>
-          <InstallmentDueDate>2012-02-17</InstallmentDueDate>
+          <InstallmentDueDate>2013-02-17</InstallmentDueDate>
           <InstallmentAmount>25573.64</InstallmentAmount>
           <PaymentMeans>04</PaymentMeans>
           <AccountToBeCredited>

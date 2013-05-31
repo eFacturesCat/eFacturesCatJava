@@ -4,7 +4,7 @@
     <Modality>I</Modality>
     <InvoiceIssuerType>EM</InvoiceIssuerType>
     <Batch>
-      <BatchIdentifier>ESA0000000001092012</BatchIdentifier>
+      <BatchIdentifier>ESA0000000001092013</BatchIdentifier>
       <InvoicesCount>1</InvoicesCount>
       <TotalInvoicesAmount>
         <TotalAmount>25573.64</TotalAmount>
@@ -66,12 +66,12 @@
     <Invoice>
       <InvoiceHeader>
         <InvoiceNumber>0109</InvoiceNumber>
-        <InvoiceSeriesCode>2012</InvoiceSeriesCode>
+        <InvoiceSeriesCode>2013</InvoiceSeriesCode>
         <InvoiceDocumentType>FC</InvoiceDocumentType>
         <InvoiceClass>OO</InvoiceClass>
       </InvoiceHeader>
       <InvoiceIssueData>
-        <IssueDate>2012-01-15</IssueDate>
+        <IssueDate>2013-01-15</IssueDate>
         <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
         <TaxCurrencyCode>EUR</TaxCurrencyCode>
         <LanguageName>ca</LanguageName>
@@ -172,7 +172,7 @@
       </Items>
       <PaymentDetails>
         <Installment>
-          <InstallmentDueDate>2012-02-17</InstallmentDueDate>
+          <InstallmentDueDate>2013-02-17</InstallmentDueDate>
           <InstallmentAmount>25573.64</InstallmentAmount>
           <PaymentMeans>04</PaymentMeans>
           <AccountToBeCredited>
@@ -185,74 +185,73 @@
       </AdditionalData>
     </Invoice>
   </Invoices>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature804687">
-<ds:SignedInfo Id="Signature-SignedInfo464323">
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature581468">
+<ds:SignedInfo Id="Signature-SignedInfo517830">
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
 <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
-<ds:Reference Id="SignedPropertiesID177261" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature804687-SignedProperties643901">
+<ds:Reference Id="SignedPropertiesID320982" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature581468-SignedProperties755544">
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>P8PpwXb4unYz00rTjsVYegsSlfQ=</ds:DigestValue>
+<ds:DigestValue>0/XfAphfWkT7lWx3c+684B5xSWs=</ds:DigestValue>
 </ds:Reference>
-<ds:Reference URI="#Certificate1583571">
+<ds:Reference URI="#Certificate1396508">
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>jnDIrzqhJob0d0I3g+LCSP4Chhs=</ds:DigestValue>
+<ds:DigestValue>zsxo9qk41jq8CAwVlkckHWFLRxM=</ds:DigestValue>
 </ds:Reference>
-<ds:Reference Id="Reference-ID-1018646" URI="">
+<ds:Reference Id="Reference-ID-4994" URI="">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>e/1lds1m4uXhs6xhHw8R24cK2ag=</ds:DigestValue>
+<ds:DigestValue>2k7akmyeUnkxpdkxjGq2VGGcKNg=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
-<ds:SignatureValue Id="SignatureValue124293">
-Pz5C9AxuPOdIjseljxm/viQsVsYItSURN4sSuwe98vbqlh9JhXGgDCIizpGSbgW+rMNF92/S30G1
-N8HQ2mQzcHdznk3H70inVtAUVD4RdRz4XQm5kIiXLXBEfqpscqJTw2BskM2vQ46Ap25btnSf9QCJ
-KdQG7ik7Y+7AM3InV0A=
+<ds:SignatureValue Id="SignatureValue389416">
+CZSdxvH6Ws5FghvhgO9VeyfiHuMqlSGmuXkskir9DNO97T76666d6FWwyP76TKNwWiCWi/tMQ9f1
+DS08WhyY3NZtBOzKoua3OjUheQeFEc9+ppOyI8JDOAmqhg3d/aJUPafRWXCPQtgrz8SiAHGvhsOk
+rMymO/DEWrQTymnm/Hg=
 </ds:SignatureValue>
-<ds:KeyInfo Id="Certificate1583571">
+<ds:KeyInfo Id="Certificate1396508">
 <ds:X509Data>
 <ds:X509Certificate>
-MIIGZzCCBU+gAwIBAgIIf+UMnWh9pc8wDQYJKoZIhvcNAQEFBQAwggEWMQswCQYDVQQGEwJFUzEn
+MIIGKTCCBRGgAwIBAgIIRroS8+nfiukwDQYJKoZIhvcNAQEFBQAwggEWMQswCQYDVQQGEwJFUzEn
 MCUGCSqGSIb3DQEJARYYY2ExQGZpcm1hcHJvZmVzaW9uYWwuY29tMSIwIAYDVQQHExlDLyBNdW50
 YW5lciAyNDQgQmFyY2Vsb25hMTEwLwYDVQQLEyhDb25zdWx0ZSBodHRwOi8vd3d3LmZpcm1hcHJv
 ZmVzaW9uYWwuY29tMTQwMgYDVQQLEytKZXJhcnF1aWEgZGUgQ2VydGlmaWNhY2lvbiBGaXJtYXBy
 b2Zlc2lvbmFsMS0wKwYDVQQKEyRGaXJtYXByb2Zlc2lvbmFsIFMuQS4gTklGIEEtNjI2MzQwNjgx
-IjAgBgNVBAMTGUFDIEZpcm1hcHJvZmVzaW9uYWwgLSBDQTEwHhcNMTEwMzE4MDg1MDAwWhcNMTIw
-MzE3MTQzOTAwWjCCAQ0xCzAJBgNVBAYTAkVTMRIwEAYDVQQIDAlCQVJDRUxPTkExHjAcBgNVBAoM
+IjAgBgNVBAMTGUFDIEZpcm1hcHJvZmVzaW9uYWwgLSBDQTEwHhcNMTIwMzE0MTMxMTAwWhcNMTQw
+MzE1MDA0OTAwWjCCAQ0xCzAJBgNVBAYTAkVTMRIwEAYDVQQIDAlCQVJDRUxPTkExHjAcBgNVBAoM
 FUFDTUUgUy5BLiAvIEZQIC8gMDAwMDEVMBMGA1UECwwMQ29udGFiaWxpZGFkMRQwEgYDVQQMDAtS
 ZXNwb25zYWJsZTEXMBUGA1UEBAwOR0FSQ8ONQSBMw5NQRVoxDTALBgNVBCoMBEpVQU4xEjAQBgNV
 BAUTCTk5OTk5OTk5UjEcMBoGA1UEAwwTSlVBTiBHQVJDw41BIEzDk1BFWjEoMCYGCSqGSIb3DQEJ
 ARYZZGVtb0BmaXJtYXByb2Zlc2lvbmFsLmNvbTEZMBcGCisGAQQBpGYBAwIMCUE5OTk5OTk5OTCB
-nzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAo9vqmMUMmgbbj5QVqeeF5M4LCxXQd0twawZDEDo1
-Qc9tC/YXDNHGgfnbcdYhCI+vOprGu7cbAjjtV7ZhmSX6m1CT7W05IKgoeDkxfeLnvA8zCgMWPKGz
-NkKtr6aInL1LgaP2lsFeFcor9xfjXAfm4dz+HeJhbSSvh+6auVT5f7sCAwEAAaOCAkAwggI8MDwG
-CCsGAQUFBwEBBDAwLjAsBggrBgEFBQcwAYYgaHR0cDovL29jc3AuZmlybWFwcm9mZXNpb25hbC5j
-b20wHQYDVR0OBBYEFGJpGG97dpx4k8kpus49t1TTeZqeMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgw
-FoAUi1BXWsG9kgCmt+WFXcPdtrWGkNIwJAYIKwYBBQUHAQMEGDAWMAoGCCsGAQUFBwsCMAgGBgQA
-jkYBATCB6gYDVR0gBIHiMIHfMIHcBgsrBgEEAeZ5CgEGAjCBzDAvBggrBgEFBQcCARYjaHR0cDov
-L3d3dy5maXJtYXByb2Zlc2lvbmFsLmNvbS9jcHMwgZgGCCsGAQUFBwICMIGLHoGIAEUAcwB0AGUA
-IABlAHMAIAB1AG4AIABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABDAG8AcgBwAG8AcgBhAHQAaQB2
-AG8AIABkAGUAIABGAGEAYwB0AHUAcgBhACAARQBsAGUAYwB0AHIAbwBuAGkAYwBhACAAcgBlAGMA
-bwBuAG8AYwBpAGQAbzBGBgNVHR8EPzA9MDugOaA3hjVodHRwOi8vY3JsLmZpcm1hcHJvZmVzaW9u
-YWwuY29tL2Zpcm1hcHJvZmVzaW9uYWwxLmNybDAOBgNVHQ8BAf8EBAMCA/gwHQYDVR0lBBYwFAYI
-KwYBBQUHAwIGCCsGAQUFBwMEMCQGA1UdEQQdMBuBGWRlbW9AZmlybWFwcm9mZXNpb25hbC5jb20w
-DQYJKoZIhvcNAQEFBQADggEBAHZHH0XucMPUwMV+jwuxNa7N8HkbuYDsfmfXdrTK6f1KypYZXGTX
-/b9s2ls2UNxqega6342NKfbr5kKD+sBupvsOzZUw+VDwExqPPeKAbiFiuxXcuW8m7FqOJolv31o8
-K6VCB53kk5oIeuDAfD7qQudSk0zC5zFpPisuadmW+Xbde5z8a0vfDYN2/I3MuAKIe4Q83GE/hpFp
-gGCM1kVLaD47jikxXVSSNDsZg+blT1bf/2qCk2ltIGPYZs6F0yOOn64hDi9H8biZVx/7Fg4palyt
-+4ztTWM8lB0ZoLLLJUW7PXz8BdIra3VivvPt8urZZY6I91m9ADDm1fwLYDjvDv4=
+nzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAnXqdCXbii26AO8LfnNPy4NT9HFBruGLpcM3oHf6Q
+pu5jDUNfeJmVG+JihdVaqke0sb+XbOR/NEwQKI1R2b6HVraLH5chmCv0i7NsVchbV2E1bRmN+zAU
++ku0HyUbiiDPSLcW2I2clw0k2w3vm8aoOYxc3y0Gq6r8XNOQ3txmtisCAwEAAaOCAgIwggH+MB0G
+A1UdDgQWBBRBtwedTWgPRScmi3/35L9zsraejDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFItQ
+V1rBvZIAprflhV3D3ba1hpDSMCQGCCsGAQUFBwEDBBgwFjAKBggrBgEFBQcLAjAIBgYEAI5GAQEw
+geoGA1UdIASB4jCB3zCB3AYLKwYBBAHmeQoBBgIwgcwwLwYIKwYBBQUHAgEWI2h0dHA6Ly93d3cu
+ZmlybWFwcm9mZXNpb25hbC5jb20vY3BzMIGYBggrBgEFBQcCAjCBix6BiABFAHMAdABlACAAZQBz
+ACAAdQBuACAAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAQwBvAHIAcABvAHIAYQB0AGkAdgBvACAA
+ZABlACAARgBhAGMAdAB1AHIAYQAgAEUAbABlAGMAdAByAG8AbgBpAGMAYQAgAHIAZQBjAG8AbgBv
+AGMAaQBkAG8wRgYDVR0fBD8wPTA7oDmgN4Y1aHR0cDovL2NybC5maXJtYXByb2Zlc2lvbmFsLmNv
+bS9maXJtYXByb2Zlc2lvbmFsMS5jcmwwDgYDVR0PAQH/BAQDAgP4MB0GA1UdJQQWMBQGCCsGAQUF
+BwMCBggrBgEFBQcDBDAkBgNVHREEHTAbgRlkZW1vQGZpcm1hcHJvZmVzaW9uYWwuY29tMA0GCSqG
+SIb3DQEBBQUAA4IBAQAXK5eHd60OD8y2/X6Gg0jPL4HGtH9Q0NyeChWnXbp0tPk+uDfFp+tTkcV4
+fCSn9GNrdUtWozNwGd7RW7Jcgm45GUqPxWquzb0+Hv7Fte0tJXl5vS5yxcG2GvezvJ0y052dJM1e
+LPVmNxmPhH9ms2EVCQ/zjeG9AJx0b3MXps7tplclPf3zHBFsF8K+3BzVFvMoK/wt76nGO04j7EMm
+/1gmsJSBN00SkuIlm1E5yJFC/XAU7QiLeY46X3DuErBrR66ZnRmQhWVgd5LhlgXp6KG/Fz3KUilE
+1tZfKm3NHHRP8oS0xcBhsLgkfbJyN/EMi55eegFYIG6gCCndaxH6eM2v
 </ds:X509Certificate>
 </ds:X509Data>
 <ds:KeyValue>
 <ds:RSAKeyValue>
 <ds:Modulus>
-o9vqmMUMmgbbj5QVqeeF5M4LCxXQd0twawZDEDo1Qc9tC/YXDNHGgfnbcdYhCI+vOprGu7cbAjjt
-V7ZhmSX6m1CT7W05IKgoeDkxfeLnvA8zCgMWPKGzNkKtr6aInL1LgaP2lsFeFcor9xfjXAfm4dz+
-HeJhbSSvh+6auVT5f7s=
+nXqdCXbii26AO8LfnNPy4NT9HFBruGLpcM3oHf6Qpu5jDUNfeJmVG+JihdVaqke0sb+XbOR/NEwQ
+KI1R2b6HVraLH5chmCv0i7NsVchbV2E1bRmN+zAU+ku0HyUbiiDPSLcW2I2clw0k2w3vm8aoOYxc
+3y0Gq6r8XNOQ3txmtis=
 </ds:Modulus>
 <ds:Exponent>AQAB</ds:Exponent>
 </ds:RSAKeyValue>
 </ds:KeyValue>
 </ds:KeyInfo>
-<ds:Object Id="Signature804687-Object430674"><etsi:QualifyingProperties Target="#Signature804687"><etsi:SignedProperties Id="Signature804687-SignedProperties643901"><etsi:SignedSignatureProperties><etsi:SigningTime>2013-01-22T18:16:05+01:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>lv6t8C9i9f6Tdcw+1cj1i4Or3+4=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC Firmaprofesional - CA1,O=Firmaprofesional S.A. NIF A-62634068,OU=Jerarquia de Certificacion Firmaprofesional,OU=Consulte http://www.firmaprofesional.com,L=C/ Muntaner 244 Barcelona,1.2.840.113549.1.9.1=#1618636131406669726d6170726f666573696f6e616c2e636f6d,C=ES</ds:X509IssuerName><ds:X509SerialNumber>9215786082686051791</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica_de_firma_formato_facturae/politica_de_firma_formato_facturae_v3_1.pdf</etsi:Identifier><etsi:Description>Política de Firma FacturaE v3.1</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-1018646"><etsi:Description>Policy facturae31</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></fe:Facturae>
+<ds:Object Id="Signature581468-Object296932"><etsi:QualifyingProperties Target="#Signature581468"><etsi:SignedProperties Id="Signature581468-SignedProperties755544"><etsi:SignedSignatureProperties><etsi:SigningTime>2013-05-31T11:53:48+02:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>5MVSSFoc//X4TPiPunDNSPv+h2Q=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC Firmaprofesional - CA1,O=Firmaprofesional S.A. NIF A-62634068,OU=Jerarquia de Certificacion Firmaprofesional,OU=Consulte http://www.firmaprofesional.com,L=C/ Muntaner 244 Barcelona,1.2.840.113549.1.9.1=#1618636131406669726d6170726f666573696f6e616c2e636f6d,C=ES</ds:X509IssuerName><ds:X509SerialNumber>5096406767133231849</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica_de_firma_formato_facturae/politica_de_firma_formato_facturae_v3_1.pdf</etsi:Identifier><etsi:Description>Política de Firma FacturaE v3.1</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-4994"><etsi:Description>Policy facturae31</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></fe:Facturae>
