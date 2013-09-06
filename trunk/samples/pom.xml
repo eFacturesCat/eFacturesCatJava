@@ -50,19 +50,45 @@
   </build>
   <dependencyManagement>
   	<dependencies>
+  	<dependency>
+  		<groupId>cat.eFactures.api</groupId>
+  		<artifactId>secure</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>cat.eFactures.api</groupId>
+  		<artifactId>deliver</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.sun.jersey</groupId>
+  		<artifactId>jersey-client</artifactId>
+  		<version>1.8</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.codehaus.jackson</groupId>
+  		<artifactId>jackson-jaxrs</artifactId>
+  		<version>1.9.13</version>
+  	</dependency>
   	</dependencies>
   </dependencyManagement>
   <dependencies>
   		<dependency>
   			<groupId>cat.eFactures.api</groupId>
   			<artifactId>secure</artifactId>
-  			<version>0.0.1-SNAPSHOT</version>
   		</dependency>
   		<dependency>
   			<groupId>cat.eFactures.api</groupId>
   			<artifactId>deliver</artifactId>
-  			<version>0.0.1-SNAPSHOT</version>
-  		</dependency>  
+  		</dependency>
+  		<dependency>
+  			<groupId>com.sun.jersey</groupId>
+  			<artifactId>jersey-client</artifactId>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.codehaus.jackson</groupId>
+  			<artifactId>jackson-jaxrs</artifactId>
+  		</dependency>
   </dependencies>
   <name>eFacturesCatSamples</name>
 </project>
