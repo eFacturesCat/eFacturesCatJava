@@ -185,19 +185,19 @@
       </AdditionalData>
     </Invoice>
   </Invoices>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature1006092">
-<ds:SignedInfo Id="Signature-SignedInfo77345">
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature735143">
+<ds:SignedInfo Id="Signature-SignedInfo996456">
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
 <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
-<ds:Reference Id="SignedPropertiesID312483" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature1006092-SignedProperties1039897">
+<ds:Reference Id="SignedPropertiesID613858" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature735143-SignedProperties630999">
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>CUUYt7/CFKldiSjuqzF7Wg9mpMA=</ds:DigestValue>
+<ds:DigestValue>8xl8AsBAAD8dmBvJxIVrU29skJQ=</ds:DigestValue>
 </ds:Reference>
-<ds:Reference URI="#Certificate1294290">
+<ds:Reference URI="#Certificate1776498">
 <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-<ds:DigestValue>1rTHFa8qEJlM8HISje/tYWjfTJQ=</ds:DigestValue>
+<ds:DigestValue>fSP/Xz9lMJx7VFQdseTsw3+/mxs=</ds:DigestValue>
 </ds:Reference>
-<ds:Reference Id="Reference-ID-504413" URI="">
+<ds:Reference Id="Reference-ID-233368" URI="">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 </ds:Transforms>
@@ -205,12 +205,12 @@
 <ds:DigestValue>KNUvRaQe6RqSQNCrnoSpMNJei0s=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
-<ds:SignatureValue Id="SignatureValue118794">
-iMP1tVFY/Oc7gItDe7JBwj4FM9I5kqPF/vhSBs6bPDysNWPhxM03+J4Eohibzv/59Ty9Nz1/cmST
-8TbEjW5HTYjiDeobyzbk0RVkkiQKKdVtSDjEY0vZd6cOWOdvR+wfKn981EOQOS+Z1QdaGzanF8wr
-nQwj9JwRHfcp6GNr1os=
+<ds:SignatureValue Id="SignatureValue813218">
+MVI2A/lAQNuplbOPkw/WdhDOWAtxIm+f2aw/gc5ixn7Ml+EK3W5oVh6uvOqoWb8faOzLAnI+mJZR
+r+ogJ5Pw20xfW3TGLFqv2veTDOxn36WvkwZNg/kPB4gcgQE/HvlYNdiP7hyF8jPvsm+OUGAuFlij
+RNe8Zwn0CtsCs3PLdzM=
 </ds:SignatureValue>
-<ds:KeyInfo Id="Certificate1294290">
+<ds:KeyInfo Id="Certificate1776498">
 <ds:X509Data>
 <ds:X509Certificate>
 MIIGKTCCBRGgAwIBAgIIRroS8+nfiukwDQYJKoZIhvcNAQEFBQAwggEWMQswCQYDVQQGEwJFUzEn
@@ -254,4 +254,4 @@ KI1R2b6HVraLH5chmCv0i7NsVchbV2E1bRmN+zAU+ku0HyUbiiDPSLcW2I2clw0k2w3vm8aoOYxc
 </ds:RSAKeyValue>
 </ds:KeyValue>
 </ds:KeyInfo>
-<ds:Object Id="Signature1006092-Object598185"><etsi:QualifyingProperties Target="#Signature1006092"><etsi:SignedProperties Id="Signature1006092-SignedProperties1039897"><etsi:SignedSignatureProperties><etsi:SigningTime>2013-09-05T19:04:17+02:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>5MVSSFoc//X4TPiPunDNSPv+h2Q=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC Firmaprofesional - CA1,O=Firmaprofesional S.A. NIF A-62634068,OU=Jerarquia de Certificacion Firmaprofesional,OU=Consulte http://www.firmaprofesional.com,L=C/ Muntaner 244 Barcelona,1.2.840.113549.1.9.1=#1618636131406669726d6170726f666573696f6e616c2e636f6d,C=ES</ds:X509IssuerName><ds:X509SerialNumber>5096406767133231849</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica_de_firma_formato_facturae/politica_de_firma_formato_facturae_v3_1.pdf</etsi:Identifier><etsi:Description>Política de Firma FacturaE v3.1</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-504413"><etsi:Description>Policy facturae31</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></fe:Facturae>
+<ds:Object Id="Signature735143-Object525234"><etsi:QualifyingProperties Target="#Signature735143"><etsi:SignedProperties Id="Signature735143-SignedProperties630999"><etsi:SignedSignatureProperties><etsi:SigningTime>2014-01-21T13:29:43+01:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>5MVSSFoc//X4TPiPunDNSPv+h2Q=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC Firmaprofesional - CA1,O=Firmaprofesional S.A. NIF A-62634068,OU=Jerarquia de Certificacion Firmaprofesional,OU=Consulte http://www.firmaprofesional.com,L=C/ Muntaner 244 Barcelona,1.2.840.113549.1.9.1=#1618636131406669726d6170726f666573696f6e616c2e636f6d,C=ES</ds:X509IssuerName><ds:X509SerialNumber>5096406767133231849</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica_de_firma_formato_facturae/politica_de_firma_formato_facturae_v3_1.pdf</etsi:Identifier><etsi:Description>Política de Firma FacturaE v3.1</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-233368"><etsi:Description>Policy facturae31</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></fe:Facturae>
