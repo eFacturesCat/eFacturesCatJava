@@ -14,7 +14,8 @@ import cat.eFactures.transform.XMLInvoice;
 /**
  *  "pimefactura" endPoint for deliver invoices
  *  "pimefactura" is a envoicing service of PIMEC (www.pimefactura.com)
- *  Is a SOAP WebService
+ *  Is a SOAP WebService  (DEPRECATED)
+ *  TODO: Create the RESTFul WS
  * @author @santicasas
  *
  */

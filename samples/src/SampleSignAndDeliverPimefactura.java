@@ -12,6 +12,7 @@ public class SampleSignAndDeliverPimefactura {
 
 	/**
 	 * @param args
+	 * DEPRECATED
 	 */
 	public static void main(String[] args) {
     	try {
