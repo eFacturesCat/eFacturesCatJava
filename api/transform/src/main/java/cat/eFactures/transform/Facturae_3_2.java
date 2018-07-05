@@ -2,6 +2,8 @@ package cat.eFactures.transform;
 
 import java.io.FileNotFoundException;
 
+import cat.eFactures.transform.XMLInvoice;
+
 /**
  * Class for spanish facturae 3.2 invoice (not secured - previus to sign)
  * 

@@ -19,7 +19,7 @@ import es.mityc.javasign.xml.refs.ObjectToSign;
  * @author @santicasas
  *
  */
-public abstract class SecuredInvoice {
+public abstract class SecuredInvoice implements SecuredInvoiceInterface {
 
 	private XMLInvoice xmlInvoice;
 	private XMLInvoice xmlInvoiceSigned = null;

@@ -12,4 +12,5 @@ public class Constants {
 	public static String XAdES_XL_Enveloped="XAdES-XL-Enveloped";
 	public static String prod_environment = "prod";
 	public static String prepro_environment = "prepro";
+	public static String ublpolicy="facturae31";
 }
